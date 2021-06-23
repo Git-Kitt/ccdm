@@ -1,0 +1,6 @@
+###Ubuntu从普通用户切换为root
+```
+1.打开Ubuntu，输入命令：su root，回车提示输入密码，怎么输入都不对
+2.给root用户设置密码：命令：sudo passwd root输入密码，并确认密码
+3.重新输入命令：su root然后输入密码：发现可以切换到root权限
+``
